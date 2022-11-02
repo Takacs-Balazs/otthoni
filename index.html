@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+    <div class="elso_mezo">
+    <form>
+        <label for="fname">Megrendelő neve: </label>
+        <input onfocus="orderFocus(this)" onblur="orderBlur(this)" type="text" class="nev"><br>
+        <label for="lname">Megrendelő címe: </label>
+        <input onfocus="orderFocus(this)" onblur="orderBlur(this)" type="text" id="cim"><br>
+        <label for="lname">Megrendelő telefonszáma: </label>
+        <input onfocus="orderFocus(this)" onblur="orderBlur(this)" type="tel" value="+36" id="telefonszam"><br>
+        <input type="submit" value="Elküld">
+      </form>
+      </div>
+      <div class="masodik_mezo">
+          <h2 class="visszaig">Visszaigazolás!</h2>
+          <p class="nev_visszaig">Név: ?</p>
+          <p class="cim_visszaig">Cím: ?</p>
+          <p class="telefon_visszaig">Telefon: ?</p>
+      </div>
+</body>
+</html>

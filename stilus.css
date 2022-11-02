@@ -1,0 +1,30 @@
+.elso_mezo{
+    margin: auto;
+    margin-bottom: 15px;
+    width: 450px;
+    height: 150px;
+    background-color: grey;
+    border-radius: 20px;
+}
+.masodik_mezo{
+    margin: auto;
+    width: 450px;
+    height: 150px;
+    background-color: grey;
+    border-radius: 20px;
+    text-align: center;
+}
+.masodik_mezo h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.elso_mezo input[type=submit]{
+    margin-left: 140px;
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+}
